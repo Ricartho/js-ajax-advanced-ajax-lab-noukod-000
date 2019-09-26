@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
-  Handlebars.RegisterPartial('author-partial-template')  
+  Handlebars.RegisterPartial('author-partial-template',document.getElementById('author-partial-template'));  
 });
 
 function showRepositories(event, data) {
