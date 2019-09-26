@@ -2,7 +2,7 @@ function showRepositories(event, data) {
   const repos = JSON.parse(this.responseText);
   const src = document.getElementById('repository-template').innerHTML;
   document.getElementById('repositories').innerHTML = repoList;
-  const template = 
+  const template = Handlebars.compile(src);
 }
 
 function getRepositories(){
