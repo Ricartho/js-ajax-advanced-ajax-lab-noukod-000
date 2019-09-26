@@ -1,6 +1,6 @@
 function showRepositories(event, data) {
   const repos = JSON.parse(this.responseText);
-  const src = document.getElementById('handle')
+  const src = document.getElementById('repository-template').innerHTML;
   document.getElementById('repositories').innerHTML = repoList;
 }
 
