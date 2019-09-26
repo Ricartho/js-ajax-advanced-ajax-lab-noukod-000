@@ -1,4 +1,7 @@
-document.addEventListener('DOMContentLoaded',)
+document.addEventListener('DOMContentLoaded',function(event){
+  Handlebars.RegisterPartial,  
+});
+
 function showRepositories(event, data) {
   const repos = JSON.parse(this.responseText);
   const src = document.getElementById('repository-template').innerHTML;
