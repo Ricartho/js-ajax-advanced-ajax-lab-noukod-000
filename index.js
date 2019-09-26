@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
-  Handlebars.RegisterPartial()  
+  Handlebars.RegisterPartial('author-partial-template')  
 });
 
 function showRepositories(event, data) {
